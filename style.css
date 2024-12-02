@@ -43,4 +43,22 @@ header li a:hover{
     color: #3ad1bb;
     transition: all 0.4s ease 0s;
 }
-
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin: 100px;
+}
+.intro{
+    display: flex;
+    text-align: justify;
+    float: right;   
+    margin: 100px;
+    padding: 0;
+    color: rgb(189, 198, 193);
+}
+span{
+    font-size: 30px;
+    word-spacing: 1.5px;
+}
