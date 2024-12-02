@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url(portfolio.avif);
+    background: url(background.jpg);
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -15,16 +15,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 20px 10%;
+    padding: 10px 10%;
     background: rgba(0,0,0,0.2);
 }
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    color: aliceblue;
-    font-family: cursive;
-    letter-spacing: 1.5px;
-    cursor: pointer;
+.logo img{
+    height: 50px;
+    width: 50px;
 }
 nav li{
     display: inline-block;
@@ -40,25 +36,29 @@ a{
     cursor: pointer;
 }
 header li a:hover{
-    color: #3ad1bb;
+    color: #0b1a18;
     transition: all 0.4s ease 0s;
 }
-img{
+.intro{
+    display: flex;
+    float: right;   
+    margin: 100px;
+    padding: 10px;
+    color: rgb(243, 246, 244);
+}
+.intro img{
     height: 300px;
     width: 300px;
     border-radius: 50%;
     border: 10px solid white;
-    margin: 100px;
-}
-.intro{
-    display: flex;
-    text-align: justify;
-    float: right;   
-    margin: 100px;
-    padding: 0;
-    color: rgb(189, 198, 193);
+    margin: 0;
 }
 span{
     font-size: 30px;
     word-spacing: 1.5px;
+}
+#detail{
+    margin: 50px;
+    padding: 10px;
+    border-left: 50px;
 }
