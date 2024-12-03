@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url(background.jpg);
+    background: url(images/background.jpg);
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -61,4 +61,31 @@ span{
     margin: 50px;
     padding: 10px;
     border-left: 50px;
+    
+}
+.skills{
+    margin: 100px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#skill1{
+    margin: 50px;
+    word-spacing: 1.5px;
+    color: aliceblue;
+}
+.logos img{
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    padding: 0;
+    
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-left: 0;
 }
