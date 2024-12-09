@@ -45,6 +45,7 @@ header li a:hover{
     margin: 100px;
     padding: 10px;
     color: rgb(243, 246, 244);
+    margin-bottom: 150px;
 }
 .intro img{
     height: 300px;
@@ -52,6 +53,8 @@ header li a:hover{
     border-radius: 50%;
     border: 10px solid white;
     margin: 0;
+    margin-right: 100px;
+    margin-left: 30px;
 }
 span{
     font-size: 30px;
@@ -161,4 +164,7 @@ button:hover{
     text-align: center;
     padding: 10px;
     margin-top: 50px;
+}
+html{
+    scroll-behavior: smooth;
 }
